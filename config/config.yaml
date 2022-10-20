@@ -1,0 +1,27 @@
+training_pipeline_config:
+  pipeline_name: supply_chain_
+  artifact_dir: artifact
+
+data_ingestion_config:
+  raw_data_dir: raw_data
+  ingested_dir: ingested_data
+
+data_validation_config:
+  schema_dir: config
+  schema_file_name: schema.yaml
+  report_file_name: report.json
+  report_page_file_name: report.html
+
+data_transformation_config:
+  transformed_dir: transformed_data
+  transformed_train_dir: train
+  transformed_test_dir: test
+  preprocessing_dir: preprocessed
+  preprocessed_object_file_name: preprocessed.pkl
+
+model_trainer_config:
+  trained_model_dir: trained_model
+  model_file_name_cluster0: model_cluster0.pkl
+  model_file_name_cluster1: model_cluster1.pkl
+  base_accuracy: 0.8
+  model_config_dir: config

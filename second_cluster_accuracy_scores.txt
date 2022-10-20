@@ -1,0 +1,13 @@
+LinearRegression training score is 0.8969891591978666
+LinearRegression training score is 0.8969891591978666
+LinearRegression training score is 0.8969872733723392
+LinearRegression testing score is -3.847120426301067e+17
+---------------------------------------------LinearRegression training score is 0.8969872733723392
+LinearRegression testing score is -3.847120426301067e+17
+---------------------------------------------SVM training score is -0.20624678827596554
+SVM testing score is -0.19764646466058444
+---------------------------------------------DT training score is 0.9917311292693568
+DT testing score is 0.9372031905978199
+---------------------------------------------rr training score is 0.9958955922115046
+rr testing score is 0.971617325527856
+---------------------------------------------
